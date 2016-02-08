@@ -1,0 +1,66 @@
+/*
+http://www.dafont.com/geo-sans-light.font
+*/
+
+@font-face { font-family: 'GeosansLight'; src: url('GeosansLight.ttf'); } 
+
+body {
+	font-family: 'GeosansLight';
+}
+
+#banner {
+		background-color: #00cdcf;
+		color: #ffffff;
+		padding: 2em 0 2em 0;
+		text-align: center;
+	}
+.title-name{
+	margin-left: 50px;
+}
+
+.sub-title{
+	text-align: center;
+}
+
+.features {
+
+		display: flex;
+		margin-bottom: 2em;
+	}
+
+.feature {
+		padding: 2em 2em 0.1em 2em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #e3e3e3;
+		margin-left: -1px;
+		margin-top: 5px;
+		width: 85%;
+		color: #444;
+	}
+.info-header {
+		color: #00cdcf;
+}
+
+#two {
+	right:1px;
+	position: absolute;
+	margin-top: -169px;
+}
+
+.feature2{
+		padding: 2em 2em 0.1em 2em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #e3e3e3;
+		background-color: #e3e3e3;
+		margin-left: 30px;
+		margin-top: 5px;
+		width: 35%;
+		color: #444;
+}
+
+.image-fit {
+		width: 50px;
+		height: 50px;
+}
