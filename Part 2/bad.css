@@ -5,7 +5,7 @@ http://www.dafont.com/geo-sans-light.font 2016-03-07
 body 
 {
 	font-family: 'Comic Sans MS';
-	background-image: url('images/finn_jake.jpg');
+	background-image: url('images/rainbow_jake.jpg');
 	color: lime;
 }
 
@@ -36,11 +36,12 @@ body
 	padding: 2em 2em 0.1em 2em;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #e3e3e3;
+	border-color: orange;
 	margin-left: -1px;
 	margin-top: 5px;
 	width: 85%;
 	min-width: 650px;
+	color: purple;
 }
 
 /*
@@ -66,7 +67,7 @@ http://stackoverflow.com/questions/14854900/how-to-move-text-up-using-css-when-n
 	border-style: solid;
 	border-width: 1px;
 	border-color: lime;
-	background-color: black;
+	color: blue;
 	margin-left: 30px;
 	margin-top: 5px;
 	width: 35%;
@@ -94,4 +95,14 @@ http://stackoverflow.com/questions/30788131/css3-flexbox-maintain-image-aspect-r
 
 #footer {
 	text-align: center;
+	color: red;
+}
+
+/*
+http://stackoverflow.com/questions/23695090/spin-rotate-image-on-hover 2016-02-09
+*/
+.imagefit img:hover {
+  	cursor: default;
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out 0s;
 }
