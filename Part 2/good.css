@@ -1,5 +1,5 @@
 /*
-http://www.dafont.com/geo-sans-light.font
+http://www.dafont.com/geo-sans-light.font 2016-03-07
 */
 
 @font-face { font-family: 'GeosansLight'; src: url('GeosansLight.ttf'); } 
@@ -42,7 +42,18 @@ body
 	margin-left: -1px;
 	margin-top: 5px;
 	width: 85%;
+	min-width: 650px;
 	color: #444;
+}
+
+/*
+http://stackoverflow.com/questions/14854900/how-to-move-text-up-using-css-when-nothing-is-working 2016-03-08
+*/
+.jobduration
+{
+	text-align: right;
+	bottom: 23px;
+	position: relative;
 }
 
 .info-header 
@@ -75,4 +86,22 @@ body
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/*
+http://stackoverflow.com/questions/30788131/css3-flexbox-maintain-image-aspect-ratio 2016-02-08
+*/
+.imagefit img {
+	height: auto;
+	width: auto;
+	max-height: 300px;
+	max-width: 250px;
+	border-radius: 25px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #00cdcf;
+}
+
+#footer {
+	text-align: center;
 }
