@@ -1,6 +1,40 @@
 Assignment: CSS Hell
 ====================
 
+
+Resources:
+====================
+http://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site 2016-02-07
+
+http://www.dafont.com/oldstyle-hplhs.font 2016-02-07
+
+http://www.computerhope.com/htmcolor.htm 2016-02-07
+
+http://www.w3schools.com/css/ 2016-02-07
+
+Modifications to HTML:
+====================
+
+Common css that already existed in the html files have been moved to books.css to save existing css settings, but more css has been added to customize the html files.
+
+Pride and Prejudice:
+
+Changed header 'CONTENTS''s class from 'toc' to 'toc2' (line 68);
+Added font color to the links (starting line 74);
+
+
+Alice's Adventures in Wonderland:
+
+Added "tdhover" class and font color to the chapter links (starting line 78);
+
+
+Huckleberry Finn:
+
+Added "hfin-content" class to first h2 header (line 13);
+Added "hfin-content" class to links under CONTENTS header (below line 101);
+Changed tags of paragraph tags to h2 tags for the Chapter headings (ex: from 'CHAPTER I' to 'CHAPTER THE LAST');
+
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your
