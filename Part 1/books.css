@@ -33,6 +33,28 @@
         border-color: #493D26; 
         max-width: 400px;
     }
+    
+    #image-container {
+        margin-left:350px;
+        padding:0;    
+        list-style:none; 
+        white-space: nowrap;
+        overflow:hidden; 
+        position:relative;
+        
+    }
+
+    #image-container li {
+        display: inline;
+        vertical-align: bottom;
+        text-align: center;
+    }
+
+    #image-container li img {
+        max-width: 100%;
+        height:auto;
+    }
+
     .figleft   {float: left; margin-left: 0%; margin-right: 1%;}
     .figright  {float: right; margin-right: 0%; margin-left: 1%;}
     pre     { font-style: italic; font-size: 90%; margin-left: 10%;}
