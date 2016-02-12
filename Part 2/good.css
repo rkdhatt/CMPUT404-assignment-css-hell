@@ -57,9 +57,6 @@ body
 	color: #444;
 }
 
-/*
-http://stackoverflow.com/questions/14854900/how-to-move-text-up-using-css-when-nothing-is-working 2016-03-08
-*/
 .jobduration
 {
 	text-align: right;
@@ -99,9 +96,6 @@ http://stackoverflow.com/questions/14854900/how-to-move-text-up-using-css-when-n
 	justify-content: center;
 }
 
-/*
-http://stackoverflow.com/questions/30788131/css3-flexbox-maintain-image-aspect-ratio 2016-02-08
-*/
 .imagefit img {
 	height: auto;
 	width: auto;
