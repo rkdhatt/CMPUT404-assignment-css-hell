@@ -35,6 +35,8 @@ body
 .sub-title
 {
 	text-align: center;
+	background-color: #FF1493;
+	font-size: 25px;
 }
 
 .features 
@@ -48,6 +50,9 @@ body
 	width: 85%;
 	min-width: 650px;
 	color: black;
+	border-color: black;
+	border-style: solid;
+	margin-top: 5px;
 }
 
 #two 
@@ -61,6 +66,10 @@ body
 {
 	color: blue;
 	background-color: yellow;
+	margin-left: 15px;
+	margin-top: 5px;
+	border-style: solid;
+	border-color: blue;
 }
 
 .imagefit 
